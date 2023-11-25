@@ -1,0 +1,73 @@
+html
+{
+    scroll-padding-bottom: 1.25rem;
+}
+.border_banner_news-news
+{
+    background-image: url('../img/news/services.jpeg');
+    background-size: cover;
+    background-position: unset;
+
+}
+.v
+{
+    padding: 50px 0;
+    padding-left: 33%;
+}
+.border
+{
+    border: 1px solid #15160d;
+    width: 430px;
+    border-radius: 50%;
+    padding: 100px 0;
+    background-color: #292a29;
+    opacity: 0.8;
+
+}
+.border_banner_news-news-text-txt
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+    white-space:inherit;
+}
+.border_banner_news-news_img_image
+{
+    margin-left: 25% !important;
+}
+.icon_new
+{
+    color: #fff;
+    padding-left:48% ;
+    margin-top: 12px;
+    font-weight: bold;
+    position: relative;
+    animation-name:  nhap_nhay;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    scroll-behavior: smooth;
+}
+    .icon_new_sroww:active
+    {
+        text-decoration: none;
+        scroll-behavior: smooth;
+        scroll-padding-top: 1.25rem;
+    }
+
+@keyframes nhap_nhay {
+0%
+{
+    transform: translateY(-10px);
+}
+50%
+{
+    transform: translateY(20px);
+    color: #292a29;
+}
+100%
+{
+    transform: translateY(-10px);
+}   
+}

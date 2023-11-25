@@ -1,0 +1,167 @@
+#contact
+{
+    padding-top: 40px;
+}
+.contact_text
+{
+    color: var(--background);
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 4px;
+}
+.information
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 32px;
+}
+.header_information
+{
+    font-weight: bold;
+    color: var(--background);
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+.nav_information_list
+{
+    /* padding-right: 24px; */
+    width: 630px;
+}
+.nav_information_item
+{
+    list-style: none;
+    margin: 6px 0;
+}
+.nav_information_item_icon
+{
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    padding: 7px;
+}
+.nav_information_item_link
+{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.25px;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.33s ease;
+}
+.nav_information_item_link:hover
+{
+    color: #aba5a5;
+}
+.information_box_text
+{
+    /* font-size: 1.4rem; */
+    font-weight: bold;
+    color: var(--background);
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+.tr_information
+{
+    margin: 8px 0;
+}
+.txtname,
+.txtnumber,
+.txtemail,
+.content_information
+{
+    border-radius: 3px;
+    font-size: 1rem;
+    color: #898787;
+    /* text-transform: capitalize; */
+}
+.txtname,
+.txtnumber
+{
+    width: 224px;
+}
+.txtemail
+{
+    width: 450px;
+}
+.sbtsent
+{
+    color: #fff;
+    background-color: var(--background);
+    border: none;
+    padding: 6px 24px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.sbtsent:active
+{
+    transform: translateY(-3px);
+}
+.rstagain
+{
+    background-color: #edeaea;
+    color: var(--background);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.rstagain:active
+{
+    transform: translateY(-3px);
+}
+/* chức năng reponsive */
+@media only screen and (max-width: 800px)
+{
+    .grid
+    {
+        width: 750px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .information
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grid_information
+    {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .nav_information_list
+    {
+        width: 500px;
+    }
+    .map
+    {
+        display: none;
+    }
+
+}
+#footer
+{
+    margin-top: 12px;
+}
+@media  only screen and (max-width: 800px){
+    .grid
+    {
+        width: 550px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .footer_list
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    .logo_footer
+    {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

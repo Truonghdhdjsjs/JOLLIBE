@@ -15,6 +15,10 @@
 </body>
 <script>
     const statuse= document.getElementById('status')
-    statuse.textContent=navigator.onLine?("online"): (offline)
+    statuse.textContent=navigator.onLine?('online'): ('offline')
+    window.addEventListener('offline' , e=>
+    statuse.textContent='offline')
+    window.addEventListener('online' , e=>
+    statuse.textContent='online')
 </script>
 </html>

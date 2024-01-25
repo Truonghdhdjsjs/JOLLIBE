@@ -224,7 +224,7 @@
                                     <table class="tb_information">
                                         <h3 class="information_box_text"> gửi tin nhắn cho chúng tôi</h3>
                                         <div class="tr_information">
-                                                <input type="text" name="txtname" class="txtname" placeholder="tên *" required>
+                                                <input type="text" name="txtname" class="txtname" placeholder="tên *" required id="name">
                                                 <input type="number" name="txtnumber" class="txtnumber" placeholder="số điện thoại *" required>
                                         </div>
                                         <div class="tr_information">
@@ -234,7 +234,7 @@
                                            <textarea cols="49px" rows="4px" class="content_information" required  placeholder="Nhập nội dung *" name="message"></textarea>
                                          </div>
                                          <div class="btn_information">
-                                            <input type="submit" value="Gửi" id="sbtsent" class="sbtsent" oneclick="sbtsent" name="sbtsent">
+                                            <input type="submit" value="Gửi" id="sbtsent" class="sbtsent" oneclick=" return sbtsent()" name="sbtsent">
                                             <input type="reset" value="Quay lại" name="rstagain" class="rstagain">
                                          </div>
                                     </table>
@@ -375,6 +375,7 @@
          </div>
     </div>
 </body>
+<script src="js/node.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
